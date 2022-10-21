@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
-            android:name=".Dashboard"
+            android:name=".Barang"
             android:exported="false" />
         <activity
-            android:name=".RelativeActivity"
+            android:name=".Dashboard"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

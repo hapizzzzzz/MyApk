@@ -18,8 +18,8 @@ public class MainActivity extends AppCompatActivity {
     EditText txtUsername, txtPassword;
     Button btnLogin;
     TextView tvDaftar;
-    String username = "12345";
-    String password = "admin";
+    String username = "admin";
+    String password = "uhui";
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

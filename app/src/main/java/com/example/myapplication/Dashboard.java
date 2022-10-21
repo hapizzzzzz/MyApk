@@ -5,14 +5,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageView;
-import android.widget.TextView;
-
-import com.example.myapplication.helper.Helper;
 
 public class Dashboard extends AppCompatActivity {
 
-    TextView tvUsername;
-    ImageView kgambar;
+
+    ImageView menara;
 
 
     @Override
@@ -20,14 +17,10 @@ public class Dashboard extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
 
-        tvUsername = findViewById(R.id.tvUsername);
-        tvUsername.setText(Helper.getUsername());
-        kgambar = findViewById(R.id.kgambar);
+        menara = findViewById(R.id.menara);
 
-        kgambar.setOnClickListener(view -> {
-
-            startActivity(new Intent(this, picture_click.class));
-
+        menara.setOnClickListener(view -> {
+            startActivity(new Intent(this, Barang.class));
         });
 
     }
